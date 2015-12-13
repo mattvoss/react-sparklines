@@ -3,7 +3,7 @@ import React from 'react';
 export default class SparklinesBars extends React.Component {
 
     static propTypes = {
-        points: React.PropTypes.arrayOf(React.PropTypes.number).isRequired,
+        points: React.PropTypes.arrayOf(React.PropTypes.object).isRequired,
         height: React.PropTypes.number.isRequired,
         style: React.PropTypes.object
     };
